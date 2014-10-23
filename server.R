@@ -8,7 +8,7 @@ library(UsingR)
 # Function to pick the URL corresponding to the radio button selected from the UI
 srcLink <- function(type) {
   switch(type,
-         p = "http://girishbabu.shinyapps.io/shiny_test",
+         p = "https://girishbabu.shinyapps.io/shiny_test",
          s = "http://rpubs.com/girishbabu/repres_pa2",
          i = "https://girishbabu.shinyapps.io/devdataprod-project2")
 }
